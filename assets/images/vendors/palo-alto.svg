@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Palo Alto Networks Ribbon Polygon Emblem -->
+  <g fill="#FA582D">
+    <path d="M12 18 L19 11 L26 18 L19 25 Z"/>
+    <path d="M22 28 L29 21 L36 28 L29 35 Z"/>
+    <path d="M22 18 L29 11 L36 18 L29 25 Z" opacity="0.85"/>
+    <path d="M12 28 L19 21 L26 28 L19 35 Z" opacity="0.85"/>
+  </g>
+  <text x="24" y="43" font-family="system-ui, -apple-system, sans-serif" font-size="6.5" font-weight="900" fill="#0F172A" text-anchor="middle" letter-spacing="0.5">PALO ALTO</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" fill="none">
+  <defs>
+    <radialGradient id="p1bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0A1128"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#p1bg)"/>
+
+  <!-- Inter-Pod Network (IPN) Core Router Transit -->
+  <g transform="translate(190, 52)">
+    <rect width="220" height="42" rx="8" fill="#0F172A" stroke="#6366F1" stroke-width="1.8"/>
+    <text x="110" y="22" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#A5B4FC" text-anchor="middle">IPN ROUTED CORE</text>
+    <text x="110" y="34" font-family="monospace" font-size="8" fill="#38BDF8" text-anchor="middle">BGP-EVPN / OSPF Fabric</text>
+  </g>
+
+  <!-- Connectors from IPN to Pods -->
+  <line x1="240" y1="94" x2="155" y2="125" stroke="#38BDF8" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="360" y1="94" x2="445" y2="125" stroke="#38BDF8" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <!-- Pod 1: Primary Data Center -->
+  <g transform="translate(30, 125)">
+    <rect width="250" height="205" rx="10" fill="#0F172A" stroke="#0284C7" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="28" rx="10" fill="#0284C7" opacity="0.25"/>
+    <text x="15" y="19" font-family="system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#38BDF8">POD 01: PRIMARY DATA CENTER</text>
+
+    <!-- Spine & Leaf -->
+    <rect x="15" y="38" width="105" height="34" rx="5" fill="#1E293B" stroke="#38BDF8" stroke-width="1"/>
+    <text x="67" y="54" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#F8FAFC" text-anchor="middle">ACI SPINES</text>
+    <text x="67" y="66" font-family="monospace" font-size="7.5" fill="#38BDF8" text-anchor="middle">100G Fabric</text>
+
+    <rect x="130" y="38" width="105" height="34" rx="5" fill="#1E293B" stroke="#38BDF8" stroke-width="1"/>
+    <text x="182" y="54" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#F8FAFC" text-anchor="middle">8x LEAF FABRIC</text>
+    <text x="182" y="66" font-family="monospace" font-size="7.5" fill="#34D399" text-anchor="middle">Active EPGs</text>
+
+    <!-- Workloads breakdown -->
+    <rect x="15" y="82" width="220" height="108" rx="6" fill="#1E293B" opacity="0.9"/>
+    <text x="25" y="105" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#F8FAFC">&#8226; 300+ Physical Servers</text>
+    <text x="25" y="128" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#38BDF8">&#8226; 1,800+ Logical CBS Servers</text>
+    <text x="25" y="151" font-family="system-ui, sans-serif" font-size="9.5" fill="#94A3B8">&#8226; Leaf-Spine ECMP Resilience</text>
+    <text x="25" y="174" font-family="system-ui, sans-serif" font-size="9.5" fill="#10B981">&#8226; Zero-Downtime Live Migration</text>
+  </g>
+
+  <!-- Pod 2: Disaster Recovery Facility -->
+  <g transform="translate(320, 125)">
+    <rect width="250" height="205" rx="10" fill="#0F172A" stroke="#10B981" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="28" rx="10" fill="#047857" opacity="0.25"/>
+    <text x="15" y="19" font-family="system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#34D399">POD 02: DISASTER RECOVERY</text>
+
+    <!-- Spine & Leaf -->
+    <rect x="15" y="38" width="105" height="34" rx="5" fill="#1E293B" stroke="#34D399" stroke-width="1"/>
+    <text x="67" y="54" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#F8FAFC" text-anchor="middle">DR SPINES</text>
+    <text x="67" y="66" font-family="monospace" font-size="7.5" fill="#34D399" text-anchor="middle">Redundant Pod</text>
+
+    <rect x="130" y="38" width="105" height="34" rx="5" fill="#1E293B" stroke="#34D399" stroke-width="1"/>
+    <text x="182" y="54" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#F8FAFC" text-anchor="middle">5x LEAF FABRIC</text>
+    <text x="182" y="66" font-family="monospace" font-size="7.5" fill="#38BDF8" text-anchor="middle">Standby/Active</text>
+
+    <!-- Workloads breakdown -->
+    <rect x="15" y="82" width="220" height="108" rx="6" fill="#1E293B" opacity="0.9"/>
+    <text x="25" y="105" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#F8FAFC">&#8226; 300+ Physical Hosts</text>
+    <text x="25" y="128" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#34D399">&#8226; Synchronous Storage Mesh</text>
+    <text x="25" y="151" font-family="system-ui, sans-serif" font-size="9.5" fill="#94A3B8">&#8226; Sub-5ms Dark Fiber DCI</text>
+    <text x="25" y="174" font-family="system-ui, sans-serif" font-size="9.5" fill="#38BDF8">&#8226; Automated DR Failover Plan</text>
+  </g>
+</svg>

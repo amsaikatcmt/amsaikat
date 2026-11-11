@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <radialGradient id="hGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="60%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0A1128" />
+    </radialGradient>
+    <linearGradient id="edgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#hGrad)" />
+
+  <!-- Network Interconnection Mesh -->
+  <g stroke="#1E3A8A" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4">
+    <line x1="200" y1="200" x2="600" y2="150" />
+    <line x1="600" y1="150" x2="1000" y2="220" />
+    <line x1="200" y1="200" x2="350" y2="450" />
+    <line x1="600" y1="150" x2="600" y2="420" />
+    <line x1="1000" y1="220" x2="850" y2="480" />
+    <line x1="350" y1="450" x2="600" y2="420" />
+    <line x1="600" y1="420" x2="850" y2="480" />
+    <line x1="350" y1="450" x2="480" y2="650" />
+    <line x1="850" y1="480" x2="720" y2="650" />
+    <line x1="480" y1="650" x2="720" y2="650" />
+  </g>
+
+  <!-- High-Bandwidth Core Backbones -->
+  <g stroke="url(#edgeGrad)" stroke-width="2.5">
+    <line x1="600" y1="150" x2="600" y2="420" />
+    <line x1="350" y1="450" x2="600" y2="420" />
+    <line x1="600" y1="420" x2="850" y2="480" />
+  </g>
+
+  <!-- Core Next-Gen Firewall Cluster (Center Node) -->
+  <g transform="translate(540, 360)">
+    <rect width="120" height="120" rx="20" fill="#0A1128" stroke="#38BDF8" stroke-width="2.5" />
+    <!-- Firewall Shield Emblem -->
+    <path d="M60 20 L28 34 V60 C28 82 42 98 60 104 C78 98 92 82 92 60 V34 L60 20 Z" fill="#2563EB" opacity="0.3" stroke="#38BDF8" stroke-width="2" />
+    <path d="M46 60 L56 70 L76 48" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Pulse Ring -->
+    <circle cx="60" cy="60" r="70" stroke="#38BDF8" stroke-width="1.2" opacity="0.5" stroke-dasharray="6 6" />
+    <text x="60" y="116" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#F8FAFC" text-anchor="middle">NGFW CORE</text>
+  </g>
+
+  <!-- Peripheral Nodes (Branch, DC, Cloud, SOC) -->
+  <!-- Top Node: Multi-Cloud Transit -->
+  <g transform="translate(550, 100)">
+    <rect width="100" height="60" rx="12" fill="#0F172A" stroke="#2563EB" stroke-width="2" />
+    <text x="50" y="35" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle">TRANSIT VPC</text>
+  </g>
+
+  <!-- Left Node: Enterprise DC Core -->
+  <g transform="translate(150, 170)">
+    <rect width="110" height="70" rx="12" fill="#0F172A" stroke="#2563EB" stroke-width="2" />
+    <text x="55" y="32" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">PRIMARY DC</text>
+    <text x="55" y="48" font-family="system-ui, sans-serif" font-size="9" fill="#10B981" text-anchor="middle">ACI SPINE/LEAF</text>
+  </g>
+
+  <!-- Right Node: DR Site -->
+  <g transform="translate(940, 190)">
+    <rect width="110" height="70" rx="12" fill="#0F172A" stroke="#2563EB" stroke-width="2" />
+    <text x="55" y="32" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">SECONDARY DC</text>
+    <text x="55" y="48" font-family="system-ui, sans-serif" font-size="9" fill="#10B981" text-anchor="middle">HA REDUNDANT</text>
+  </g>
+
+  <!-- Bottom Left: Zero Trust / ZTNA -->
+  <g transform="translate(290, 420)">
+    <rect width="120" height="65" rx="12" fill="#0F172A" stroke="#2563EB" stroke-width="2" />
+    <text x="60" y="30" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">ZTNA / VPN</text>
+    <text x="60" y="46" font-family="system-ui, sans-serif" font-size="9" fill="#38BDF8" text-anchor="middle">GLOBALPROTECT</text>
+  </g>
+
+  <!-- Bottom Right: SOC Monitoring -->
+  <g transform="translate(790, 450)">
+    <rect width="120" height="65" rx="12" fill="#0F172A" stroke="#2563EB" stroke-width="2" />
+    <text x="60" y="30" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">24/7 SOC / SIEM</text>
+    <text x="60" y="46" font-family="system-ui, sans-serif" font-size="9" fill="#10B981" text-anchor="middle">THREAT DEFENSE</text>
+  </g>
+
+  <!-- Telemetry HUD Bottom Center -->
+  <g transform="translate(420, 680)">
+    <rect width="360" height="54" rx="12" fill="#0A1128" stroke="#334155" stroke-width="1.2" />
+    <circle cx="28" cy="27" r="6" fill="#10B981" />
+    <text x="44" y="24" font-family="monospace" font-size="11" font-weight="700" fill="#38BDF8">SYSTEM STATUS: 99.999% UPTIME</text>
+    <text x="44" y="40" font-family="monospace" font-size="9.5" fill="#94A3B8">BGP / OSPF CONVERGED • ZERO TRUST ENFORCED</text>
+  </g>
+</svg>
+

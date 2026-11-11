@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Juniper Networks Iconic Green Geometric Branch -->
+  <g fill="#709736">
+    <path d="M14 12 H22 V28 C22 32 19 35 15 35 H13 V29 H15 C16.5 29 17.5 28 17.5 26.5 V18 H14 Z"/>
+    <rect x="25" y="12" width="9" height="6" rx="1"/>
+    <rect x="25" y="21" width="9" height="6" rx="1"/>
+    <rect x="25" y="30" width="9" height="5" rx="1"/>
+  </g>
+  <text x="24" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="6.5" font-weight="900" fill="#0F172A" text-anchor="middle" letter-spacing="0.5">JUNIPER</text>
+</svg>

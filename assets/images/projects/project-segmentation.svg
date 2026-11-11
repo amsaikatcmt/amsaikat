@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <radialGradient id="p4Bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#p4Bg)" />
+
+  <g transform="translate(60, 110)">
+    <!-- Zone A: User Access -->
+    <rect x="0" y="20" width="130" height="90" rx="10" fill="#0A1128" stroke="#38BDF8" stroke-width="1.8" />
+    <text x="65" y="55" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">USER ZONE</text>
+    <text x="65" y="75" font-family="monospace" font-size="9" fill="#94A3B8" text-anchor="middle">802.1X / NAC</text>
+
+    <!-- Zone B: DMZ & Services -->
+    <rect x="175" y="20" width="130" height="90" rx="10" fill="#0A1128" stroke="#F59E0B" stroke-width="1.8" />
+    <text x="240" y="55" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">DMZ ZONE</text>
+    <text x="240" y="75" font-family="monospace" font-size="9" fill="#F59E0B" text-anchor="middle">WAF &amp; PROXY</text>
+
+    <!-- Zone C: Database & Core -->
+    <rect x="350" y="20" width="130" height="90" rx="10" fill="#0A1128" stroke="#10B981" stroke-width="1.8" />
+    <text x="415" y="55" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">CORE VAULT</text>
+    <text x="415" y="75" font-family="monospace" font-size="9" fill="#10B981" text-anchor="middle">ZERO TRUST EPG</text>
+
+    <!-- Barrier / Inspection Lines -->
+    <line x1="152" y1="10" x2="152" y2="120" stroke="#EF4444" stroke-width="2" stroke-dasharray="4 4" />
+    <line x1="328" y1="10" x2="328" y2="120" stroke="#EF4444" stroke-width="2" stroke-dasharray="4 4" />
+    <text x="152" y="140" font-family="monospace" font-size="9" font-weight="700" fill="#EF4444" text-anchor="middle">INSPECT</text>
+    <text x="328" y="140" font-family="monospace" font-size="9" font-weight="700" fill="#EF4444" text-anchor="middle">INSPECT</text>
+  </g>
+
+  <g transform="translate(40, 40)">
+    <rect width="320" height="34" rx="8" fill="#0A1128" stroke="#334155" stroke-width="1.2" />
+    <text x="16" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">CASE STUDY: NETWORK MICROSEGMENTATION</text>
+  </g>
+</svg>
+

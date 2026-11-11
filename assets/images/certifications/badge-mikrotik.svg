@@ -1,0 +1,20 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none">
+  <defs>
+    <linearGradient id="certBg_cert-mikrotik.svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" rx="16" fill="url(#certBg_cert-mikrotik.svg)" stroke="#64748B" stroke-width="2" />
+  <rect x="12" y="12" width="376" height="236" rx="12" fill="none" stroke="#334155" stroke-dasharray="4 4" stroke-width="1" />
+  
+  <g transform="translate(200, 75)">
+    <circle cx="0" cy="0" r="32" fill="#64748B" fill-opacity="0.15" stroke="#64748B" stroke-width="2" />
+    <path d="M-10 -2 L-3 6 L12 -8" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <text x="200" y="135" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#F8FAFC" text-anchor="middle" letter-spacing="1">MIKROTIK</text>
+  <text x="200" y="160" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#64748B" text-anchor="middle">Certified Network Associate</text>
+  <text x="200" y="195" font-family="monospace" font-size="10" fill="#94A3B8" text-anchor="middle">Official Verified Credential</text>
+  <text x="200" y="215" font-family="monospace" font-size="9" fill="#64748B" text-anchor="middle">[Replaceable Certificate Asset Placeholder]</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- ICSI International CyberSecurity Institute Crest -->
+  <defs>
+    <linearGradient id="icsiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <circle cx="24" cy="21" r="15" fill="url(#icsiGrad)"/>
+  <circle cx="24" cy="21" r="12" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <!-- Central Star -->
+  <polygon points="24,12 26.5,18 33,18.5 28,22.5 29.5,29 24,25.5 18.5,29 20,22.5 15,18.5 21.5,18" fill="#FBBF24"/>
+  <text x="24" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="7" font-weight="900" fill="#0F172A" text-anchor="middle" letter-spacing="1">ICSI</text>
+</svg>

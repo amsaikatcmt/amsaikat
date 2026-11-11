@@ -1,0 +1,16 @@
+# Temporary & Development files
+scratch/
+.venv/
+__pycache__/
+*.pyc
+
+# Local OS & Editor artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Logs & temp test outputs
+*.log
+*.tmp

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <radialGradient id="b2Bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#b2Bg)" />
+
+  <g transform="translate(100, 100)">
+    <!-- Zero Trust Architecture 3 Pillars -->
+    <rect x="0" y="40" width="100" height="120" rx="10" fill="#0A1128" stroke="#38BDF8" stroke-width="1.8" />
+    <text x="50" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle">VERIFY</text>
+    <text x="50" y="100" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle">EXPLICITLY</text>
+    <text x="50" y="130" font-family="monospace" font-size="9" fill="#94A3B8" text-anchor="middle">MFA &amp; Device</text>
+
+    <rect x="150" y="40" width="100" height="120" rx="10" fill="#0A1128" stroke="#10B981" stroke-width="1.8" />
+    <text x="200" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#10B981" text-anchor="middle">LEAST</text>
+    <text x="200" y="100" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#10B981" text-anchor="middle">PRIVILEGE</text>
+    <text x="200" y="130" font-family="monospace" font-size="9" fill="#94A3B8" text-anchor="middle">Just-in-Time</text>
+
+    <rect x="300" y="40" width="100" height="120" rx="10" fill="#0A1128" stroke="#F59E0B" stroke-width="1.8" />
+    <text x="350" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#F59E0B" text-anchor="middle">ASSUME</text>
+    <text x="350" y="100" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#F59E0B" text-anchor="middle">BREACH</text>
+    <text x="350" y="130" font-family="monospace" font-size="9" fill="#94A3B8" text-anchor="middle">Microsegment</text>
+  </g>
+
+  <g transform="translate(40, 40)">
+    <rect width="320" height="34" rx="8" fill="#0A1128" stroke="#334155" stroke-width="1.2" />
+    <text x="16" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">TECHNICAL GUIDE: ZERO TRUST PRACTICES</text>
+  </g>
+</svg>
+

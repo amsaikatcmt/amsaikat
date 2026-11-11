@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <radialGradient id="dcBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0A1128" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#dcBg)" />
+
+  <g transform="translate(40, 35)">
+    <rect width="370" height="34" rx="8" fill="#0A1128" stroke="#334155" stroke-width="1.2" />
+    <text x="16" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">CASE STUDY: DC NETWORK SECURITY ARCHITECTURE</text>
+  </g>
+
+  <!-- Spine Switches -->
+  <g transform="translate(160, 95)">
+    <rect width="130" height="45" rx="8" fill="#0F172A" stroke="#38BDF8" stroke-width="1.8" />
+    <text x="65" y="27" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle">SPINE 01 (100G)</text>
+  </g>
+  <g transform="translate(310, 95)">
+    <rect width="130" height="45" rx="8" fill="#0F172A" stroke="#38BDF8" stroke-width="1.8" />
+    <text x="65" y="27" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle">SPINE 02 (100G)</text>
+  </g>
+
+  <!-- Fabric Lines -->
+  <line x1="225" y1="140" x2="115" y2="190" stroke="#475569" stroke-width="1.5" />
+  <line x1="225" y1="140" x2="300" y2="190" stroke="#475569" stroke-width="1.5" />
+  <line x1="225" y1="140" x2="485" y2="190" stroke="#475569" stroke-width="1.5" />
+  <line x1="375" y1="140" x2="115" y2="190" stroke="#475569" stroke-width="1.5" />
+  <line x1="375" y1="140" x2="300" y2="190" stroke="#475569" stroke-width="1.5" />
+  <line x1="375" y1="140" x2="485" y2="190" stroke="#475569" stroke-width="1.5" />
+
+  <!-- Leaf Switches / Security Tiers -->
+  <g transform="translate(50, 190)">
+    <rect width="130" height="60" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="1.5" />
+    <text x="65" y="26" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#10B981" text-anchor="middle">LEAF: WEB TIER</text>
+    <text x="65" y="46" font-family="monospace" font-size="9" fill="#94A3B8" text-anchor="middle">EPG Web Contract</text>
+  </g>
+  <g transform="translate(235, 190)">
+    <rect width="130" height="60" rx="8" fill="#0F172A" stroke="#6366F1" stroke-width="1.5" />
+    <text x="65" y="26" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#818CF8" text-anchor="middle">LEAF: APP TIER</text>
+    <text x="65" y="46" font-family="monospace" font-size="9" fill="#94A3B8" text-anchor="middle">Strict Port Filtering</text>
+  </g>
+  <g transform="translate(420, 190)">
+    <rect width="130" height="60" rx="8" fill="#0F172A" stroke="#F59E0B" stroke-width="1.5" />
+    <text x="65" y="26" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#FBBF24" text-anchor="middle">LEAF: DB VAULT</text>
+    <text x="65" y="46" font-family="monospace" font-size="9" fill="#94A3B8" text-anchor="middle">Zero Trust Boundary</text>
+  </g>
+
+  <!-- DCI / Perimeter Inspection Bar -->
+  <g transform="translate(50, 280)">
+    <rect width="500" height="70" rx="10" fill="#0A1128" stroke="#2563EB" stroke-width="1.8" />
+    <text x="250" y="28" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#38BDF8" text-anchor="middle">DATA CENTER INTERCONNECT (DCI) &amp; HIGH-CAPACITY FIREWALL MESH</text>
+    <text x="250" y="52" font-family="monospace" font-size="10" fill="#CBD5E1" text-anchor="middle">VXLAN EVPN Encapsulation • 99.999% SLA • Sub-second Failover</text>
+  </g>
+</svg>

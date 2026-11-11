@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <radialGradient id="hardBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0A1128" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#hardBg)" />
+
+  <g transform="translate(40, 35)">
+    <rect width="350" height="34" rx="8" fill="#0A1128" stroke="#334155" stroke-width="1.2" />
+    <text x="16" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">CASE STUDY: FIREWALL SECURITY HARDENING</text>
+  </g>
+
+  <!-- Hardening Pillars Grid -->
+  <g transform="translate(50, 100)">
+    <rect width="230" height="110" rx="10" fill="#0F172A" stroke="#EF4444" stroke-width="1.8" />
+    <text x="115" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#F87171" text-anchor="middle">CONTROL PLANE POLICING</text>
+    <text x="115" y="56" font-family="monospace" font-size="9" fill="#94A3B8" text-anchor="middle">CoPP Rate Limiting</text>
+    <text x="115" y="74" font-family="monospace" font-size="9" fill="#94A3B8" text-anchor="middle">Disable Unused Telnet / HTTP</text>
+    <text x="115" y="94" font-family="monospace" font-size="9" fill="#10B981" text-anchor="middle">SNMPv3 Authentication</text>
+  </g>
+
+  <g transform="translate(320, 100)">
+    <rect width="230" height="110" rx="10" fill="#0F172A" stroke="#38BDF8" stroke-width="1.8" />
+    <text x="115" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#38BDF8" text-anchor="middle">LAYER-7 SSL DECRYPTION</text>
+    <text x="115" y="56" font-family="monospace" font-size="9" fill="#94A3B8" text-anchor="middle">Forward Proxy Inspection</text>
+    <text x="115" y="74" font-family="monospace" font-size="9" fill="#94A3B8" text-anchor="middle">Ciphersuite Hardening (TLS 1.3)</text>
+    <text x="115" y="94" font-family="monospace" font-size="9" fill="#10B981" text-anchor="middle">Deep Threat Prevention</text>
+  </g>
+
+  <g transform="translate(50, 230)">
+    <rect width="500" height="120" rx="12" fill="#0A1128" stroke="#10B981" stroke-width="1.8" />
+    <text x="250" y="32" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#10B981" text-anchor="middle">CIS BENCHMARKS &amp; AUTOMATED COMPLIANCE AUDITING</text>
+    <text x="250" y="60" font-family="monospace" font-size="10" fill="#CBD5E1" text-anchor="middle">Eliminated 100% Insecure Protocols across Perimeter Clusters</text>
+    <text x="250" y="80" font-family="monospace" font-size="10" fill="#94A3B8" text-anchor="middle">Multi-Factor Authentication (MFA) for Administrative Access</text>
+    <text x="250" y="100" font-family="monospace" font-size="10" fill="#38BDF8" text-anchor="middle">Syslog Telemetry Streaming to SOC / SIEM in Real-Time</text>
+  </g>
+</svg>

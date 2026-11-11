@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" fill="none">
+  <defs>
+    <radialGradient id="p8bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0A1128"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#p8bg)"/>
+
+  <!-- Left: Endpoints -->
+  <g transform="translate(30, 60)">
+    <rect width="130" height="270" rx="8" fill="#0F172A" stroke="#64748B" stroke-width="1.2"/>
+    <text x="65" y="28" font-family="system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#E2E8F0" text-anchor="middle">6,000+ USERS</text>
+    <text x="65" y="46" font-family="monospace" font-size="8.5" fill="#38BDF8" text-anchor="middle">Wired &amp; Wireless</text>
+
+    <g transform="translate(10, 65)">
+      <rect width="110" height="42" rx="4" fill="#1E293B"/>
+      <text x="55" y="22" font-family="system-ui, sans-serif" font-size="8.5" fill="#F8FAFC" text-anchor="middle">Banking Terminals</text>
+      <text x="55" y="34" font-family="system-ui, sans-serif" font-size="7.5" fill="#34D399" text-anchor="middle">802.1X Auth</text>
+    </g>
+    <g transform="translate(10, 118)">
+      <rect width="110" height="42" rx="4" fill="#1E293B"/>
+      <text x="55" y="22" font-family="system-ui, sans-serif" font-size="8.5" fill="#F8FAFC" text-anchor="middle">Corporate Laptops</text>
+      <text x="55" y="34" font-family="system-ui, sans-serif" font-size="7.5" fill="#34D399" text-anchor="middle">Certificate TLS</text>
+    </g>
+    <g transform="translate(10, 170)">
+      <rect width="110" height="42" rx="4" fill="#1E293B"/>
+      <text x="55" y="22" font-family="system-ui, sans-serif" font-size="8.5" fill="#F8FAFC" text-anchor="middle">Branch ATMs &amp; IoT</text>
+      <text x="55" y="34" font-family="system-ui, sans-serif" font-size="7.5" fill="#38BDF8" text-anchor="middle">MAB Profiling</text>
+    </g>
+    <text x="65" y="250" font-family="system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#34D399" text-anchor="middle">Total Visibility</text>
+  </g>
+
+  <line x1="160" y1="195" x2="205" y2="195" stroke="#0284C7" stroke-width="2.5"/>
+
+  <!-- Center: NAC Engine -->
+  <g transform="translate(205, 52)">
+    <rect width="190" height="280" rx="10" fill="#0F172A" stroke="#0284C7" stroke-width="2"/>
+    <rect x="0" y="0" width="190" height="28" rx="10" fill="#0284C7" opacity="0.25"/>
+    <text x="95" y="19" font-family="system-ui, sans-serif" font-size="10.5" font-weight="800" fill="#7DD3FC" text-anchor="middle">ENTERPRISE NAC</text>
+
+    <g transform="translate(15, 42)">
+      <rect width="160" height="52" rx="5" fill="#1E293B" stroke="#0284C7" stroke-width="1"/>
+      <text x="80" y="22" font-family="system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#F8FAFC" text-anchor="middle">DEVICE PROFILING</text>
+      <text x="80" y="38" font-family="monospace" font-size="8" fill="#38BDF8" text-anchor="middle">Auto Fingerprinting</text>
+    </g>
+
+    <g transform="translate(15, 104)">
+      <rect width="160" height="52" rx="5" fill="#1E293B" stroke="#10B981" stroke-width="1"/>
+      <text x="80" y="22" font-family="system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#F8FAFC" text-anchor="middle">POSTURE CHECK</text>
+      <text x="80" y="38" font-family="monospace" font-size="8" fill="#6EE7B7" text-anchor="middle">OS Patch &amp; AV Health</text>
+    </g>
+
+    <g transform="translate(15, 166)">
+      <rect width="160" height="52" rx="5" fill="#1E293B" stroke="#F59E0B" stroke-width="1"/>
+      <text x="80" y="22" font-family="system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#F8FAFC" text-anchor="middle">DYNAMIC VLAN</text>
+      <text x="80" y="38" font-family="monospace" font-size="8" fill="#FDE68A" text-anchor="middle">Microsegment Assignment</text>
+    </g>
+
+    <text x="95" y="254" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#38BDF8" text-anchor="middle">Zero Trust Enforcement</text>
+  </g>
+
+  <line x1="395" y1="195" x2="440" y2="195" stroke="#10B981" stroke-width="2.5"/>
+
+  <!-- Right: Isolated Segments -->
+  <g transform="translate(440, 60)">
+    <rect width="130" height="270" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="1"/>
+    <text x="65" y="28" font-family="system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#34D399" text-anchor="middle">ACCESS ZONES</text>
+    <text x="65" y="46" font-family="monospace" font-size="8.5" fill="#94A3B8" text-anchor="middle">Enforced Isolation</text>
+
+    <g transform="translate(10, 65)">
+      <rect width="110" height="44" rx="4" fill="#1E293B"/>
+      <text x="55" y="20" font-family="system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#F8FAFC" text-anchor="middle">Staff VLAN</text>
+      <text x="55" y="34" font-family="system-ui, sans-serif" font-size="8" fill="#34D399" text-anchor="middle">Full Verified Access</text>
+    </g>
+    <g transform="translate(10, 120)">
+      <rect width="110" height="44" rx="4" fill="#1E293B"/>
+      <text x="55" y="20" font-family="system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#F8FAFC" text-anchor="middle">Quarantine</text>
+      <text x="55" y="34" font-family="system-ui, sans-serif" font-size="8" fill="#EF4444" text-anchor="middle">Non-Compliant Patch</text>
+    </g>
+    <g transform="translate(10, 175)">
+      <rect width="110" height="44" rx="4" fill="#1E293B"/>
+      <text x="55" y="20" font-family="system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#F8FAFC" text-anchor="middle">Guest VLAN</text>
+      <text x="55" y="34" font-family="system-ui, sans-serif" font-size="8" fill="#FBBF24" text-anchor="middle">Direct Internet Only</text>
+    </g>
+    <text x="65" y="250" font-family="system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#34D399" text-anchor="middle">Zero Rogue Access</text>
+  </g>
+</svg>

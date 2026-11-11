@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" fill="none">
+  <defs>
+    <radialGradient id="p4bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0A1128"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#p4bg)"/>
+
+  <!-- Multi-Site Orchestrator -->
+  <g transform="translate(170, 52)">
+    <rect width="260" height="44" rx="8" fill="#0F172A" stroke="#818CF8" stroke-width="1.8"/>
+    <text x="130" y="22" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#C7D2FE" text-anchor="middle">CISCO MULTI-SITE ORCHESTRATOR</text>
+    <text x="130" y="36" font-family="monospace" font-size="8" fill="#38BDF8" text-anchor="middle">Nexus Dashboard &#8226; Global Policy</text>
+  </g>
+
+  <line x1="220" y1="96" x2="155" y2="125" stroke="#818CF8" stroke-width="2"/>
+  <line x1="380" y1="96" x2="445" y2="125" stroke="#818CF8" stroke-width="2"/>
+
+  <!-- Site 1: Active DC -->
+  <g transform="translate(30, 125)">
+    <rect width="250" height="205" rx="10" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="28" rx="10" fill="#0284C7" opacity="0.25"/>
+    <text x="15" y="19" font-family="system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#38BDF8">SITE 01: ACTIVE DATA CENTER</text>
+
+    <rect x="15" y="38" width="220" height="34" rx="5" fill="#1E293B" stroke="#38BDF8" stroke-width="1"/>
+    <text x="125" y="55" font-family="system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#F8FAFC" text-anchor="middle">8x Leaf Fabric &#8226; Spines</text>
+    <text x="125" y="66" font-family="monospace" font-size="7.5" fill="#38BDF8" text-anchor="middle">300+ Physical Hosts</text>
+
+    <rect x="15" y="82" width="220" height="108" rx="6" fill="#1E293B" opacity="0.9"/>
+    <text x="25" y="105" font-family="system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#F8FAFC">&#8226; Active-Active Concurrent</text>
+    <text x="25" y="128" font-family="system-ui, sans-serif" font-size="9.5" fill="#38BDF8">&#8226; Intersite Network (ISN)</text>
+    <text x="25" y="151" font-family="system-ui, sans-serif" font-size="9.5" fill="#94A3B8">&#8226; Stretched EPG Contracts</text>
+    <text x="25" y="174" font-family="system-ui, sans-serif" font-size="9.5" fill="#10B981">&#8226; Independent Fault Domains</text>
+  </g>
+
+  <!-- Site 2: Active DR -->
+  <g transform="translate(320, 125)">
+    <rect width="250" height="205" rx="10" fill="#0F172A" stroke="#10B981" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="28" rx="10" fill="#059669" opacity="0.25"/>
+    <text x="15" y="19" font-family="system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#34D399">SITE 02: ACTIVE DR FACILITY</text>
+
+    <rect x="15" y="38" width="220" height="34" rx="5" fill="#1E293B" stroke="#34D399" stroke-width="1"/>
+    <text x="125" y="55" font-family="system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#F8FAFC" text-anchor="middle">8x Leaf Fabric &#8226; Spines</text>
+    <text x="125" y="66" font-family="monospace" font-size="7.5" fill="#34D399" text-anchor="middle">300+ Physical Hosts</text>
+
+    <rect x="15" y="82" width="220" height="108" rx="6" fill="#1E293B" opacity="0.9"/>
+    <text x="25" y="105" font-family="system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#F8FAFC">&#8226; 600+ Total Physical Servers</text>
+    <text x="25" y="128" font-family="system-ui, sans-serif" font-size="9.5" fill="#34D399">&#8226; Cross-Site Workload Mobility</text>
+    <text x="25" y="151" font-family="system-ui, sans-serif" font-size="9.5" fill="#94A3B8">&#8226; Zero Cascade Failure Risk</text>
+    <text x="25" y="174" font-family="system-ui, sans-serif" font-size="9.5" fill="#818CF8">&#8226; Zero Maintenance Outages</text>
+  </g>
+</svg>
